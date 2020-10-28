@@ -10,9 +10,9 @@
 namespace PolderKnowledge\PhpSettingsModule;
 
 use PolderKnowledge\PhpSettingsModule\Listener\PhpSettings;
-use Zend\ModuleManager\ModuleManager;
-use Zend\Mvc\Application;
-use Zend\Mvc\MvcEvent;
+use Laminas\ModuleManager\ModuleManager;
+use Laminas\Mvc\Application;
+use Laminas\Mvc\MvcEvent;
 
 /**
  * The module class that handles the setting of PHP configuration options.

@@ -9,7 +9,7 @@
 
 namespace PolderKnowledge\PhpSettingsModule\Listener;
 
-use Zend\Mvc\MvcEvent;
+use Laminas\Mvc\MvcEvent;
 
 /**
  * The PhpSettings class is a listener that listens to the bootstrap event. At that moment the config array is read

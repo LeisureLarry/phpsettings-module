@@ -11,9 +11,9 @@ namespace PolderKnowledge\PhpSettingsModuleTest;
 
 use PHPUnit_Framework_TestCase;
 use PolderKnowledge\PhpSettingsModule\Module;
-use Zend\EventManager\EventManager;
-use Zend\EventManager\SharedEventManager;
-use Zend\ModuleManager\ModuleManager;
+use Laminas\EventManager\EventManager;
+use Laminas\EventManager\SharedEventManager;
+use Laminas\ModuleManager\ModuleManager;
 
 class ModuleTest extends PHPUnit_Framework_TestCase
 {

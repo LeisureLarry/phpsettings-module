@@ -11,8 +11,8 @@ namespace PolderKnowledge\PhpSettingsModuleTest\Listener;
 
 use PHPUnit_Framework_TestCase;
 use PolderKnowledge\PhpSettingsModule\Listener\PhpSettings;
-use Zend\Mvc\Application;
-use Zend\Mvc\MvcEvent;
+use Laminas\Mvc\Application;
+use Laminas\Mvc\MvcEvent;
 
 class PhpSettingsTest extends PHPUnit_Framework_TestCase
 {
