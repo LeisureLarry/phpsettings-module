@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A Zend Framework module that sets up an event listener in order to set PHP settings in an application.
+A Laminas Framework module that sets up an event listener in order to set PHP settings in an application.
 
 ## Install
 

@@ -30,7 +30,7 @@ class ModuleTest extends PHPUnit_Framework_TestCase
 
         // Assert
         $this->assertInternalType('array', $result);
-        $this->assertArrayHasKey('Zend\\Loader\\StandardAutoloader', $result);
+        $this->assertArrayHasKey('Laminas\\Loader\\StandardAutoloader', $result);
     }
 
     /**

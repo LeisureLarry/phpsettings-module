@@ -1,7 +1,7 @@
 {
     "name": "polderknowledge/phpsettings-module",
     "type": "library",
-    "description": "A Zend Framework module to quickly and easily set PHP settings.",
+    "description": "A Laminas Framework module to quickly and easily set PHP settings.",
     "keywords": [
         "polderknowledge",
         "phpsettings-module",
@@ -22,9 +22,9 @@
     "require-dev": {
         "phpunit/phpunit": "~4.0||~5.0",
         "squizlabs/php_codesniffer": "^2.3",
-        "zendframework/zend-eventmanager": "^2.3|^3.0",
-        "zendframework/zend-modulemanager": "^2.7",
-        "zendframework/zend-mvc": "^2.3|^3.0"
+        "laminas/laminas-eventmanager": "^2.3|^3.0",
+        "laminas/laminas-modulemanager": "^2.7",
+        "laminas/laminas-mvc": "^2.3|^3.0"
     },
     "autoload": {
         "psr-4": {

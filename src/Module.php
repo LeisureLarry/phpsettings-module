@@ -27,7 +27,7 @@ class Module
     public function getAutoloaderConfig()
     {
         return [
-            'Zend\Loader\StandardAutoloader' => [
+            'Laminas\Loader\StandardAutoloader' => [
                 'namespaces' => [
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
                 ],
@@ -48,7 +48,7 @@ class Module
     /**
      * Initializes the module.
      *
-     * @param ModuleManager $moduleManager The module manager that is used by Zend Framework.
+     * @param ModuleManager $moduleManager The module manager that is used by Laminas Framework.
      */
     public function init(ModuleManager $moduleManager)
     {
